@@ -1,0 +1,68 @@
+.bosyy{
+    
+        display: grid;
+        position: fixed;
+        z-index: 999;
+        top: 70%;
+        right: 0;
+        place-items: center;
+ /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        padding: 0;
+        /* height: 100vh; */
+        overflow: hidden;
+    
+}
+.rounded-text {
+  width: 10.625rem;
+  height: 10.625rem;
+  text-transform: uppercase;
+  transform: rotate(-103deg);
+  color: #fff;
+  font-weight: bold;
+  z-index: -1;
+  font-family: Raleway;
+}
+.white {
+  fill: #fff;
+}
+.yellow {
+  fill: #ffda2a;
+}
+.green {
+  fill: #00d3b9;
+}
+@keyframes rotating {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+.rotating {
+  animation: rotating 12s linear infinite;
+}
+@keyframes coloring {
+  0% {
+    fill: #fff;
+  }
+  35% {
+    fill: #000000;
+  }
+  75% {
+    fill: #ff5c10;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.coloring {
+  animation: coloring 12s linear infinite;
+}

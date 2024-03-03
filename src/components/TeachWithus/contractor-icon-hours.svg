@@ -1,0 +1,37 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+        stroke: #21505c;
+        stroke-linecap: round;
+        stroke-width: 1.1px;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: #1797b1;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>flexible_hours</title>
+  <g>
+    <path class="cls-1" d="M40.84,47.22A19.61,19.61,0,1,0,20.54,14.8"/>
+    <g>
+      <polygon class="cls-2" points="32.08 37.98 20.06 22.89 10.39 29.98 23.5 45.64 23.36 41.64 28.23 42.05 28.72 37.67 32.08 37.98"/>
+      <path class="cls-3" d="M35.68,50.9,23.5,46,6.39,25.72c-1-1.26.33-4.09,2.86-6.22s5.56-3,6.61-1.75L33,38.06Z"/>
+      <polyline class="cls-3" points="23.5 46.03 23.84 41.78 28.23 42.05 28.72 37.67 32.97 38.06"/>
+      <line class="cls-3" x1="19.81" y1="22.43" x2="10.34" y2="30.4"/>
+      <line class="cls-3" x1="34.79" y1="46.68" x2="31.85" y2="49.15"/>
+    </g>
+    <line class="cls-1" x1="34.35" y1="28.72" x2="34.35" y2="15.84"/>
+    <line class="cls-1" x1="34.35" y1="28.72" x2="43.64" y2="25.4"/>
+  </g>
+</svg>

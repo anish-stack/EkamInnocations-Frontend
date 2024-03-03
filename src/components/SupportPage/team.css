@@ -1,0 +1,82 @@
+
+  /* Team section styles */
+  .team-section {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .team-heading {
+    font-size: 2.25rem;
+    color: #4a5568;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .team-divider {
+    width: 3rem;
+    height: 0.25rem;
+    background-color: #68d391;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 0;
+    border: 0;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .team-description {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #2d3748;
+  }
+  .team-member{
+    margin-top: 22px;
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .team-member-info{
+    width: 500px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+
+  }
+  .team-member-img{
+    width: 100%;
+  }
+  .team-member-img img{
+    width: 100%;
+  }
+ 
+  .team-member-details{
+    padding: 1rem;
+  }
+  .bg-red-100 {
+    background-color: #feb2b2;
+  }
+  
+  .bg-blue-100 {
+    background-color: #a0cfff;
+  }
+  
+  .bg-yellow-100 {
+    background-color: #faf089;
+  }
+  
+  .bg-green-100 {
+    background-color: #c6f6d5;
+  }

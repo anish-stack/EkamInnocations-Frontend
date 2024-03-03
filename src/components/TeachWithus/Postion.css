@@ -1,0 +1,47 @@
+.Postion_conatiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+.Postion_Heading{
+    text-align: center;
+    padding: 1.2rem 2.2rem;
+}
+.Postion_Heading h2{
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: #7700ff;
+  position: relative;
+
+}
+.Postion_Heading h2::after{
+    position: absolute;
+    content: '';
+    width: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -12px;
+        border-radius: 20px;
+    border-bottom: 4px solid #7700ff;
+}
+table{
+    margin-bottom: 20px;
+}
+.table-head thead{
+    background-color: aqua;
+}
+.table-head thead tr th {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    padding: 1rem;
+    
+    background-color: rgb(23, 15, 51);
+
+}
+.info-td a{
+    text-decoration: none;
+    color: #7700ff;
+font-weight: 400;
+font-size: 1.3rem;
+}

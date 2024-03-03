@@ -1,0 +1,119 @@
+.postion_conatiner{
+    padding: 2rem 2rem;
+    position: relative;
+width: 100%;
+height: 100%;
+}
+.postiners_main{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postiner_text{
+    width: 50%;
+    height: 100%;
+    padding: 1.2rem;
+
+}
+.postiner_head{
+    margin: 0;
+}
+.postiner_head h2{
+   font-size: 2.4rem;
+   color: #4374dd;
+}
+.Postiner_para{
+    margin-top: 10px;
+}
+.Postiner_para p{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.582);
+}
+.apply-cta-conatiner{
+    margin-top: 25px;
+}
+.apply-cta-conatiner a{
+    background-color:#518be0;
+    padding:  0.5rem 2.2rem;
+    text-decoration: none;
+  border-top-right-radius: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: all 0.3s linear;
+}
+
+.apply-cta-conatiner a:hover{
+
+  border-top-right-radius: 22px;
+  border-top-left-radius: 22px;
+
+  border-bottom-left-radius: 22px;
+
+  border-bottom-right-radius: 22px;
+
+
+}
+.postiners_main:nth-child(2){
+margin-top: 20px;
+background: rgba(255, 255, 255, 0.19);
+border-radius: 16px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.postiners_main:nth-child(4){
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+    }
+    
+
+.postiner_img{
+    text-align: center;
+ 
+    width: 50%;
+    height: 100%;
+}
+.img-side{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.img-side img{
+    width: 100%;
+    object-fit: contain;
+    height: 300px;
+}
+
+@media screen and (max-width : 768px) {
+    .postiner_text{
+        width: 100%;
+    }
+    .postiner_img{
+        width: 100%;
+    }
+    .postiners_main {
+    flex-direction: column-reverse;
+    }
+    .img-side img{
+
+        height: 200px;
+    }
+    .postiner_head h2 {
+        font-size: 1.4rem;
+    }
+    
+}

@@ -1,0 +1,85 @@
+.Postion-Conatiner-information{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+}
+.heading_postion{
+    text-align: center;
+}
+.heading_postion h2{
+    font-size: 2.5rem;
+    color: #6835f3;
+}
+.heading_back{
+    color: #6835f3;
+}
+.postion__conatiner{
+    padding: 20px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.19);
+border-radius: 16px;
+box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: start;
+}
+.stacticname{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.info_postion{
+    padding: 10px;
+    position: relative;
+}
+.heading-postion{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #6835f3;
+}
+.countery-postion{
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: #86858bd0;
+
+}
+.About-postion{
+    padding: 10px;
+
+}
+.About-postion span{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #6835f3;
+}
+.Requirements-list{
+    padding: 10px;
+
+}
+.headins_list{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #6835f3;
+}
+.benifts-table{
+    margin-left: 36px;
+    list-style-type: disc;
+}
+.Thankyou{
+    font-size: 2rem;
+    font-style: italic;
+}
+.glow{
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 500px;
+background-color: #bd35f377;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+filter: blur(100px);
+z-index: -9;
+border-radius: 50%;
+
+}

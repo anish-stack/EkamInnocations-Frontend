@@ -1,0 +1,123 @@
+.E-book {
+
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.e-book-img{
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.e-book-img img {
+
+  max-width: 60%;
+  height: auto;
+}
+
+.E-book-text {
+  flex-grow: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.E-book-text h2{
+font-family:cursive;
+font-size: 3rem;
+color: #f16a1c;
+}
+.free {
+  text-align: center;
+  font-size: 5rem;
+  /* From https://css.glass */
+border-radius: 16px;
+box-shadow: 0 4px 30px #ae1cf149;
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff7f2;
+  text-shadow: 10px 4px #000;
+  background-color: #ae1cf177;
+}
+.E-book-text p {
+  line-height: 1.6;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.E-book-text b {
+  font-weight: bold;
+}
+
+marquee span{
+font-size: 3rem;
+padding: 1.2rem;
+font-weight: 700;
+margin: 12px 10px;
+background-color: #6159532d;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.where{
+  display: grid;
+  place-content: center;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3); 
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+.where-img{
+  width: 100%;
+  padding: 1.2rem;
+
+  height: 100%;
+}
+.where-text{
+  padding: 1.2rem;
+
+}
+
+.books-Ebooks{
+  max-width: 1600px;
+  margin: 40px auto;
+  display: grid;
+  gap:2rem 1.5rem;
+  grid-template-columns: repeat(3,1fr);
+}
+.books-grisd{
+  
+}
+@media screen and (max-width:768px){
+  .E-book-text h2 {
+    font-size: 2rem;
+}
+.books-Ebooks{
+
+  grid-template-columns: repeat(2,1fr);
+}
+.free {
+  text-align: center;
+  font-size: 1.7rem;
+
+  text-shadow: 3px 0px #000;
+  background-color: #ae1cf177;
+}
+.where {
+
+grid-template-columns:  1fr;
+}
+.e-book-img img {
+max-width: 100%;
+}
+}
+
+@media screen and (max-width:528px){
+  .books-Ebooks{
+
+    grid-template-columns: repeat(1,1fr);
+  }
+}

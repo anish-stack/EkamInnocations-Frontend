@@ -1,0 +1,178 @@
+.teache_conatiner {
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 12px 15px;
+
+}
+
+.teache_conatiner .techer-box {
+    width: 100%;
+ 
+    margin: 0 auto;
+    min-height: 50vh;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-attachment: fixed;
+    height: 100%;
+    background-image: url(./headerbg.jpg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+.teache_conatiner .techer-box::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+.tech-with-text{
+    padding: 2rem;
+    position: relative;
+    z-index: 9;
+    width: 80%;
+}
+.tech-with-text h2{
+    font-size: 2rem;
+    color: #fff;
+    line-height: 120%;
+    font-weight: 700;
+}
+.tech-with-text p{
+    font-size: 1.5rem;
+    color: #ffffff96;
+    font-weight: 400;
+}
+.postion-cta{
+ margin-top: 2rem;
+}
+.postion-cta a{
+    background-color:transparent;
+    padding:  0.5rem 1.2rem;
+    text-decoration: none;
+    border: 2px solid white;
+    font-weight: 500;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.postion-cta a:hover{
+    background-color:#fff;
+    border-color: #1965bd;
+    color: #1965bd;
+    font-weight: 700;
+
+}
+.benifts_with_ekam_container{
+    padding: 2rem 3rem;
+    width: 100%;
+    min-height: 50vh;
+    background-color: #fff;
+}
+.benifts{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.headings_benifts{
+    padding: 2rem;
+
+}
+.headings_benifts h3{
+    text-align: center;
+    color: #24505c;
+    line-height: 26.4px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.benifts_card_conatiner{
+    display: grid;
+    padding: 2rem;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff96;
+    grid-template-columns: repeat(3,1fr);
+}
+.benifts_card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid ;
+    padding: 40px;
+background: rgba(255, 255, 255, 0.19);
+border-radius: 16px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.cards-head{
+    text-align: center;
+    padding: 1.2rem 1.5rem;
+}
+.cards-head span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.2px;
+    color: #24505c;
+}
+.cards-head p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 12px;
+    line-height: 150%;
+ 
+}
+
+@media screen and (max-width: 768px){
+    .teache_conatiner .techer-box{
+background-position: bottom;
+    }
+    .tech-with-text {
+
+        width: 100%;
+    }
+    .tech-with-text h2 {
+        font-size: 1.5rem;
+      
+    }
+    .tech-with-text p {
+        font-size: 0.9rem;
+      
+    }
+    .headings_benifts {
+        padding: 1rem;
+    }
+    .headings_benifts h3 {
+    
+        line-height: unset;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .benifts_card_conatiner {
+
+        padding: 0;
+        gap: 2rem;
+   
+        grid-template-columns: repeat(1,1fr);
+    }
+    .cards-head span {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 1.2px;
+        color: #24505c;
+    }
+  
+}

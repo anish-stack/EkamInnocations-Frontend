@@ -1,0 +1,58 @@
+.apply-conatiner {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+
+    padding: 29px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .apply-conatiner h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .labe-apply {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .input_apply {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    transition: all 0.4s ease-out;
+    border-radius: 4px;
+  }
+  
+  .applyCta {
+    background-color: #6780ec;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .applyCta:hover {
+    background-color: #1c45ff;
+  }
+  
+  .input_apply:focus {
+    outline: none; /* Remove default outline */
+    border-color: #6780ec; /* Change border color when in focus */
+    box-shadow: 0 0 5px #677fecb2; /* Add a subtle box shadow */
+  }

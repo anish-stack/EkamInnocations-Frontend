@@ -1,0 +1,74 @@
+/* Assuming you have styles for datapage-container, data-store-img, and data-text in your existing CSS */
+
+.datapage-container {
+    margin-top: -90px!important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .data-store-img {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .data-store-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .data-text {
+    flex: 1;
+    max-width: 55%;
+  }
+  
+  .data-text h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .data-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  @media screen and (max-width:768px) {
+    .datapage-container {
+      margin-top: 0px!important;
+     flex-direction: column;
+    }
+    .data-text {
+      flex: 1;
+      max-width: 100%;
+    }
+    .data-store-img {
+      flex: 1;
+      max-width: 100%;
+    }
+    .team-member {
+      margin-top: 22px;
+      width: 100%;
+      display: grid;
+      gap: 0.5rem;
+      grid-template-columns: repeat(1,1fr);
+  }
+  .team-member-info {
+    width: 317px;
+   
+}
+/* Support container styles */
+.support-container {
+  display: unset;
+  min-height: 100vh;
+}
+.bosyy{
+  display: none;
+}
+  }

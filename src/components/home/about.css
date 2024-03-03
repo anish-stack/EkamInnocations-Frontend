@@ -1,0 +1,119 @@
+.container-about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .About-Conatiner_Top {
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+  }
+  
+  .Start-About {
+    text-align: center;
+  }
+  
+  .Start-About h3 {
+    font-size: 28px;
+    color: var(--color-dark-orange);
+    margin-bottom: 15px;
+  }
+  
+  .para-abouts {
+    text-align: center;
+    padding: 2rem;
+    font-size: 26px;
+    color: var(--color-dark-gray);
+    line-height: 1.5;
+  }
+  .threeboxs .para-abouts{
+    text-align: left;
+    padding: 0;
+    font-size: 16px;
+
+    color: var(--color-dark-gray);
+    line-height: 1.5;
+  }
+  
+  .threeboxs {
+
+    gap: 20px;
+    padding: 20px;
+  }
+  .threeboxs img{
+    width: 200px;
+  margin-left: 125px;
+  }
+  .headsss{
+font-weight: 700;
+text-align: center;
+font-size: 3rem!important;
+  }
+  
+  .boxes,
+  .boxes-left,
+  .box-right {
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+  }
+  
+  .heading-about {
+    font-size: 24px;
+    color: var(--color-dark-orange);
+    margin-bottom: 15px;
+  }
+  
+  .boxes p,
+  .boxes-left p,
+  .box-right p {
+    font-size: 16px;
+    color: var(--color-dark-gray);
+    line-height: 1.5;
+  }
+  .heading-about {
+    text-align: center;
+    padding: 1.1rem;
+    }
+  @media only screen and (max-width: 768px) {
+    .About-Conatiner_Top {
+      flex-direction: row;
+    }
+    .slick-list {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        margin: 0;
+        left: 0%!important;
+        padding: 0;
+    }
+    .Start-About,
+    .boxes,
+    .boxes-left,
+    .box-right {
+      text-align: left;
+      display: block;
+    }
+    .headsss {
+
+      font-size: 1.5rem!important;
+  }
+  .para-abouts {
+
+    font-size: 16px;
+
+}
+.heading-about {
+text-align: center;
+}
+  }
